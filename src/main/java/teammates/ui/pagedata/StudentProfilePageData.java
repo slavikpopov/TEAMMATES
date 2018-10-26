@@ -19,7 +19,7 @@ public class StudentProfilePageData extends PageData {
             pictureUrl = Const.SystemParams.DEFAULT_PROFILE_PICTURE_PATH;
         } else {
             pictureUrl = Const.ActionURIs.STUDENT_PROFILE_PICTURE
-                       + "?" + Const.ParamsNames.BLOB_KEY + "=" + profile.pictureKey
+                       + "??" + Const.ParamsNames.BLOB_KEY + "=" + profile.pictureKey
                        + "&" + Const.ParamsNames.USER_ID + "=" + account.googleId;
         }
         this.profileEditBox = new StudentProfileEditBox(account.name, isEditingPhoto, profile,
