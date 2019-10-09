@@ -16,6 +16,8 @@ import teammates.common.util.SanitizationHelper;
  * <br> * Details of its teams (as {@link TeamDetailsBundle} objects)
  *
  */
+/* Some change */
+
 public class CourseDetailsBundle {
     public CourseAttributes course;
     public CourseStats stats = new CourseStats();
